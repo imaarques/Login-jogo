@@ -1,60 +1,82 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
 
-	<title>Login - SpaceCenter</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Login - SpaceCenter</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <style>
+        @media (max-width: 668px) {
+            #container {
+                width: 80%;
+                margin-bottom: 50px;
+            }
+            #recuperar {
+                margin-left: 15em;
+            }
+        }
+        
+        @media (max-width: 450px) {
+            #recuperar {
+                margin-top: -28px;
+            }
+            #recuperar {
+                margin-left: 9em;
+            }
+        }
+    </style>
 
 </head>
 
 <body>
 
-	<div id="nomejogo">
-		<p>Space<span>Center</span></p>	
-	</div>
+    <div id="nomejogo">
+        <p>Space<span>Center</span></p>
+    </div>
 
-	<div id="container">
-		<img src="imagens/perfil.png">
+    <div id="container">
+        <img src="imagens/perfil.png">
 
-		<p>Entrar no jogo</p>
+        <p>Entrar no jogo</p>
 
-		<form>
-			
-			<div>
+        <form>
 
-				<input type="text" name="email" id="email" placeholder="Digite seu usuário">
+            <div>
 
-			</div>
+                <input type="text" name="email" id="email" placeholder="Digite seu usuário">
 
-			<div>
+            </div>
 
-				<input type="password" name="senha" id="senha" placeholder="Digite sua senha">
-				
-			</div>
+            <div>
 
-			<div>
+                <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
 
-				<input id="submit" type="submit" value="Logar"><br>
+            </div>
 
-			</div>
+            <div>
 
-			<div id="dlembrar">
+                <input id="submit" type="submit" value="Logar"><br>
 
-				<input id="lembrar" type="checkbox" name="Lembrar">
-				<label for="lembrar">Lembrar-me</label>
+            </div>
 
-			</div>
+            <div id="dlembrar">
 
-				<div id="recuperar">
-				
-					<a href="">Recuperar Senha</a>	
+                <input id="lembrar" type="checkbox" name="Lembrar">
+                <label for="lembrar">Lembrar-me</label>
 
-				</div>
+            </div>
 
-		</form>
-		
-	</div>
+            <div id="recuperar">
+
+                <a href="">Recuperar Senha</a>
+
+            </div>
+
+        </form>
+
+    </div>
 
 </body>
 
