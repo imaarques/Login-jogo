@@ -1,0 +1,129 @@
+html,
+body {
+    min-height: 100%;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: Trebuchet;
+    src: url(../trebuchet-ms.ttf)
+}
+
+body {
+    font-family: Trebuchet;
+    background: linear-gradient(#1A1919, #090D1B, #141D41);
+}
+
+#nomejogo {
+    padding-left: 20px;
+    font-size: 1.5em;
+    color: white;
+}
+
+#nomejogo span {
+    color: #E74E4E;
+    font-weight: bold;
+}
+
+#container {
+    width: 400px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.1);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 120px;
+    text-align: center;
+    margin-bottom: 100px !important;
+}
+
+#container img {
+    width: 100px;
+    height: 100px;
+    margin-top: -60px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#container p {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+input {
+    height: 40px;
+    width: 65%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding-left: 40px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    border-radius: 10px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+input#email {
+    background-image: url(imagens/icone-usuario.png);
+}
+
+input#senha {
+    background-image: url(imagens/icone-cadeado.png);
+}
+
+input#submit {
+    color: #fff;
+    background-color: #E74E4E;
+    border: 2px solid #DC2F2F;
+    text-align: center;
+    width: 75%;
+    padding: 0px;
+    background: linear-gradient(to bottom, #E74E4E, #DC2F2F);
+    cursor: pointer;
+}
+
+#container a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 0.8em;
+    clear: both;
+    text-decoration: underline;
+}
+
+#dlembrar {
+    width: 110px;
+    float: left;
+    margin-left: 3em;
+}
+
+#recuperar {
+    width: 110px;
+    float: right;
+    margin-right: 3em;
+}
+
+#dlembrar label {
+    color: white;
+    font-size: 0.8em;
+}
+
+#lembrar {
+    height: 12px;
+    width: 12px;
+    float: left;
+}
+
+#lembrarme {
+    float: left;
+}
+
+.imaarques {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
