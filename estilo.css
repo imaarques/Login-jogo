@@ -4,8 +4,13 @@ body {
     margin: 0 auto;
 }
 
+@font-face {
+    font-family: Trebuchet;
+    src: url(../trebuchet-ms.ttf)
+}
+
 body {
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-family: Trebuchet;
     background: linear-gradient(#1A1919, #090D1B, #141D41);
 }
 
@@ -115,4 +120,10 @@ input#submit {
 
 #lembrarme {
     float: left;
+}
+
+.imaarques {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
 }
